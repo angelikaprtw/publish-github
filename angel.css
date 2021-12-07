@@ -1,0 +1,132 @@
+li{
+				list-style: none;
+}
+
+.header{
+				height: 90px;
+				background: #bf682e;
+}
+
+.header-logo{
+				float: center;
+				padding: 10px 30px;
+}
+
+.header-right{
+				padding: 20px 35px;
+				float: right;
+				color: white;
+				background-color: #bf682e ;
+				box-sizing: content-box;
+				border: 3px solid;
+				border-radius: 100px;
+
+}
+
+.header-right a {
+				font-family: serif;
+				text-decoration-line: none;
+				color: white;
+				background-color: #bf682e ;
+				
+}
+
+.header-right:hover{
+				opacity: 0.8;
+				background-color: #d49972;
+}
+
+.main{
+				height: 750px;
+				background: #d49972;
+}
+
+.section-title1{
+				text-align: center;
+				font-family: Times new roman;
+				font-size: 30px;
+				padding: 20px 0px;
+				border-bottom: 3px solid black;
+}
+
+.section-title2{
+				text-align: center;
+				font-size: 25px;
+}
+
+.profile{
+				display: flex;
+				justify-content: center;
+				font-size: 30px;
+				font-family: serif;
+				font-weight: bold;
+				
+}
+
+.profile img{
+				border: 3px solid #000000;
+				text-align: left;
+}
+
+.biodata{
+				text-align: center;
+				font-size: 30px;
+				font-family: serif;
+				font-weight: bold;
+				
+}
+
+.footer{
+				height: 240px;
+				background: #bf682e;
+}
+
+.sosial-media{
+				padding: 10px 20px;
+}
+
+.sosmed{
+				padding-bottom: 50px 0px;
+}
+
+.btn{
+				padding: 0px 50px;
+				opacity: 1;
+}
+
+.btn:hover{
+				opacity: o.5;
+}
+
+.btn-twitter{
+				padding: 12px 24px;
+				color: white;
+				display: inline-block;
+				border-radius: 4px;
+				text-decoration: none;
+				background-color: #6acbff;
+}
+
+.btn-instagram{
+				padding: 12px 24px;
+				color: white;
+				display: inline-block;
+				border-radius: 4px;
+				text-decoration: none;
+				background-color: #7a00ff;
+				margin-top: 15px;
+}
+
+.tanggal{
+				text-align: center;
+				padding-top: 20px;
+}
+
+@media screen and(min-width: 300px) (max-width: 1200px) {
+.wrapper {
+				width: 100%;
+}
+
+
+
+}
